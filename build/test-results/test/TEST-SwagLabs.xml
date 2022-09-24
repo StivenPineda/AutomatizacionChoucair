@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SwagLabs" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-23T07:18:10" hostname="CHBOGPF18ZF0J" time="7.997">
+<testsuite name="SwagLabs" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-23T07:45:10" hostname="LAPTOP-79J280PR" time="8.047">
   <properties/>
-  <testcase name="Add products to the shopping cart" classname="SwagLabs" time="7.997"/>
+  <testcase name="Add products to the shopping cart" classname="SwagLabs" time="8.047"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[sep 23, 2022 2:18:10 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[sep 23, 2022 2:45:10 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 12315
+Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 37300
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-sep 23, 2022 2:18:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+sep 23, 2022 2:45:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO net.serenitybdd.core.Serenity - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
