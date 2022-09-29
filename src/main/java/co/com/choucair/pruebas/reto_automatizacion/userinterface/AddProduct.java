@@ -14,7 +14,9 @@ public class AddProduct {
             .located(By.id("add-to-cart-sauce-labs-fleece-jacket"));
     public static final Target BUTTON_ADD_5 = Target.the("product 5")
             .located(By.id("add-to-cart-test.allthethings()-t-shirt-(red)"));
-    public static final Target VIEW_SHOPPING_CART = Target.the("View shopping cart")
-            .located(By.id("shopping_cart_container"));
+    public static final Target VIEW_SHOPPING_CART = Target.the("Button").
+            located(By.className("shopping_cart_link"));
+    public static final Target TITLE_ADD_PRODUCT = Target.the("Titulo de pagina de productos")
+            .located(By.xpath("//*[@id=\"header_container\"]/div[2]/span"));
 
 }

@@ -17,6 +17,6 @@ public class Buy {
             .located(By.id("finish"));
     public static final Target BUTTON_CONTINUE = Target.the("continue to shop")
             .located(By.id("continue"));
-    public static final Target IMG_FINAL = Target.the("img final")
-            .located(By.className("pony_express"));
+    public static final Target SUCCESSFUL_ORDER = Target.the("Pedido realizado")
+            .located(By.className("complete-header"));
 }

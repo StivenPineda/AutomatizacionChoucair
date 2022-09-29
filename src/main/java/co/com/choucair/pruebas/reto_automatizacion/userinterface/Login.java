@@ -10,5 +10,7 @@ public class Login {
             .located(By.id("password"));
     public static final Target BUTTON_LOGIN =  Target.the("Login")
             .located(By.id("login-button"));
+    public static final Target TITLE_TEST = Target.the("Extrae un elemento despues del login")
+            .located(By.xpath("//*[@id=\"header_container\"]/div[2]/span"));
 
 }
